@@ -13,6 +13,6 @@ go get github.com/jinzhu/gorm
 go get github.com/nu7hatch/gouuid
 
 go install tank
-cp $GOPATH/src/tank/build/tank /data/redtank/bin
+cp $GOPATH/bin/tank /data/redtank/bin/redtank
 
 echo "done".
