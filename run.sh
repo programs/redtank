@@ -10,3 +10,5 @@ sleep 1s
 docker stop buildtank > /dev/null 2>&1 && docker rm buildtank > /dev/null 2>&1
 
 ./pack.sh
+
+#docker exec mysql bash -c "mysql -uroot -p${dbpasswd} -e \"create database redtank;\""
